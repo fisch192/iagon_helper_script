@@ -20,3 +20,6 @@ curl -X POST "https://gw.iagon.com/api/v2/storage/upload" -H "x-api-key: YOUR KE
 
 When you Upload a file you get also the FILE ID . With this one you can then cancel again the file 
 curl -X DELETE "https://gw.iagon.com/api/v2/storage/file/fileid" -H "Content-Type: application/json" -H "x-api-key: YOUR API KEY"
+
+
+Here you can find the official description of the IAGON API https://api.docs.iagon.com/#b2eb7923-b1cb-4a28-8718-5631b7b32f5b
